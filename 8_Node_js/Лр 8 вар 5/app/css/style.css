@@ -1,0 +1,39 @@
+body {
+    background: url("../resources/bg.jpg");
+    background-size: cover;
+}
+
+.generalDiv {
+    width: 500px;
+
+    margin: auto;
+    padding: 10px;
+    background: rgba(218, 218, 218, 0.7);
+    border-radius: 10px;
+
+    text-align: center;
+
+    font-size: 16px;
+}
+
+#data {
+    width: 500px;
+}
+
+input, select {
+    font-size: 16px;
+}
+
+input[type=text], [type=date], [type=email], select{
+    width: 150px;
+    height: 20px;
+
+    margin: 5px;
+}
+
+button {
+    width: 100px;
+    height: 40px;
+
+    margin: 10px 0 0 0;
+}

@@ -1,0 +1,50 @@
+*{
+	background-color: rgb(255, 255, 255);
+}
+
+button{
+	width: 100px;
+	height: 30px;
+	margin: 10px 10px;
+
+	font-size: 12px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+
+    height: 100vh;
+	font-size: 18px;
+    font-family: Calibri;
+}
+
+ol {
+	padding: 0;
+	list-style-position: inside;
+}
+
+li {
+	margin-left: 5px;
+}
+
+#form{
+	position: relative;
+	display: inline;
+	left: 40%;
+	top: 10%;
+}
+
+table{
+	display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+	border-spacing: 10px;
+	
+}
+
+

@@ -1,0 +1,87 @@
+body {
+    width: 95%;
+    height: 100%;
+
+    background: url("../resources/bg.jpg");
+    background-size: cover;
+}
+
+.generalDiv {
+}
+
+.informationDiv {
+    display: flex;
+
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 15px;
+}
+
+#headerText {
+    text-align: center;
+
+    font-size: 28px;
+    color: red;
+}
+
+#capitalText {
+    font-size: 22px;
+    color: blue;
+}
+
+.textDiv {
+    padding-left: 20px;
+    width: 800px;
+}
+
+.cityText {
+    color: red;
+}
+
+
+.textDiv p {
+    font-size: 18px;
+
+}
+
+.imageDiv {
+    width: 800px;
+    text-align: center;
+}
+
+.imageDiv span {
+    font-size: 24px;
+}
+
+img {
+    width: 600px;
+    height: 450px;
+
+    border-radius: 10px;
+}
+
+
+.controlDiv {
+    text-align: center;
+}
+
+#selected {
+    width: 200px;
+    height: 30px;
+
+    text-align: center;
+
+    font-size: 16px;
+}
+
+.buttonsDiv {
+    margin-top: 10px;
+}
+
+button {
+    width: 70px;
+    height: 30px;
+
+    margin: 5px;
+
+    font-size: 16px;
+}

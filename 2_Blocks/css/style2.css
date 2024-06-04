@@ -1,0 +1,115 @@
+.header {
+    display: flex;
+    align-items: flex-end;
+
+    margin-bottom: -2px;
+}
+
+.header-link {
+    width: 200px;
+    height: 30px;
+
+    background-color: #deb4f6;
+
+    display: flex;
+    justify-content: center;
+
+    border-radius: 10px 10px 0 0;
+    box-shadow: -1px -1px 1px;
+
+    padding-top: 20px;
+}
+
+.header-link__item {
+    text-decoration: none;
+}
+
+.header-link__title {
+    text-align: center;
+}
+
+.header-top {
+    width: 100%;
+    height: 10px;
+
+    background: linear-gradient(#deb4f6, #f8d1f7);
+
+    border-radius: 0 10px 0 0;
+    box-shadow: 1px -1px 1px;
+}
+
+a {
+    color: #0b1d5e;
+}
+
+a:visited {
+    color: #b837d5;
+}
+
+.body {
+    width: 100%;
+
+    background: radial-gradient(#f8d1f7, #deb4f6);
+
+    box-shadow: 1px 1px 1px, -1px 1px 1px;;
+    border-radius: 0 0 10px 10px;
+}
+
+.article-header {
+    text-align: center;
+    font-family: "Times New Roman", serif;
+    font-size: 25px;
+}
+
+.body-container {
+    padding: 10px 30px;
+
+}
+
+.body-container > .body-text {
+    font-family: "Times New Roman", serif;
+    font-size: 18px;
+    color: #3a005d;
+}
+
+.body-text:first-letter {
+    font-size: 24px;
+    color: red;
+}
+
+.body-text::after {
+    content: url("../resources/rose.png");
+}
+
+.body-img__container {
+    text-align: center;
+    padding: 10px 60px;
+}
+
+.body-img {
+    width: 400px;
+    height: 300px;
+    padding-bottom: 5px;
+}
+
+
+.body-img__title {
+
+    text-align: center;
+
+    font-family: "Times New Roman", serif;
+    font-size: 18px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.footer {
+    width: auto;
+    height: 200px;
+
+    background: url("../resources/footer_img.jpg") no-repeat center;
+
+    border: 10px solid #ffffff;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px;
+}

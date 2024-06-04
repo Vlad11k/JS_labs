@@ -1,0 +1,1 @@
+link.addEventListener('click', createModal)

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/modal.css">
+    <title>Samsung S23</title>
+</head>
+<body>
+<div class="page">
+    <div class="page-container">
+        <header class="page-header">
+        </header>
+        <div class="page-body">
+            <nav class="page-body__nav">
+                <p>Главная</p>
+                <p class="page-body__nav-link">Результаты</p>
+            </nav>
+            <article class="page-body__article">
+                <form class="page-form">
+                    <h1 class="page-form__title">Презентация Samsung S23</h1>
+                    <div class="page-form__item">
+                        <label for="name">Как вас зовут?</label> <input type="text" id="name" required>
+                    </div>
+                    <div class="page-form__item">
+                        <label for="date">На какой неделе вы были на выставке:</label> <input type="week" id="date" required>
+                    </div>
+                    <div class="page-form__item">
+                        <p class="textCheckbox">Опишите ваши впечатления:</p>
+                        <input class="checkBox"  type="checkbox" name="effect" value="Интересно" id="effect1"> <label for="effect1">Интересно</label>
+                        <input class="checkBox" type="checkbox" name="effect" value="Скучно" id="effect2"> <label for="effect2">Скучно</label>
+                        <input class="checkBox" type="checkbox" name="effect" value="Завораживающе" id="effect3"> <label for="effect3">Завораживающе</label>
+                        <input class="checkBox" type="checkbox" name="effect" value="Лаконично" id="effect4"> <label for="effect4">Лаконично</label>
+                        <input class="checkBox" type="checkbox" name="effect" value="Не впечатлило" id="effect5"> <label for="effect5">Не впечатлило</label>
+                    </div>
+                    <div class="page-form__item">
+                        <label for="model">Какую модель вы бы купили?</label>
+                        <select id="model">
+                            <option value="Обычный">Обычный</option>
+                            <option value="FE">FE</option>
+                            <option value="Плюс">Плюс</option>
+                            <option value="Ультра">Ультра</option>
+                        </select>
+                    </div>
+                    <div class="page-form__item">
+                        <label for="color">Какого цвета вы бы выбрали устройство?</label><input type="color" id="color" required>
+                    </div>
+                    <div class="page-form__item">
+                        <label>Пришли бы вы на презентацию в следующем году?</label>
+                        <label for="Yes">Да</label><input type="radio" id="Yes" name="coming" value="Да" checked>
+                        <label for="No">Нет</label><input type="radio" id="No" name="coming" value="Нет">
+                    </div>
+                    <div class="page-form__item">
+                        <label for="range">Оцените мероприятие от 1 до 10:</label><input type="range" class="slider" id="range"
+                                                                                 min="1" max="10" step="1" value="5">
+                        <span id="range-value"></span>
+                        <script src="../js/range.js"></script>
+                    </div>
+                    <div class="page-form__item">
+                        <input class="submit" type="image" src="../resources/submit.png" width="48px" height="48px">
+                        <input class="reject" type="image" src="../resources/reject.png" width="44px" height="44px">
+                    </div>
+                </form>
+            </article>
+            <aside class="page-body__aside"></aside>
+        </div>
+        <footer class="page-footer">
+            <span class="page-footer__title">Вариант 9</span>
+        </footer>
+    </div>
+</div>
+</body>
+<script src="../js/variables.js"></script>
+<script src="../js/modal.js"></script>
+<script src="../js/send.js"></script>
+<script src="../js/start.js"></script>
+</html>

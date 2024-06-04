@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>laba_8</title>
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+</head>
+
+<body>
+<div class="container">
+    <article class="article" id="content">
+        <form class="form" method="post" action="/">
+            <h1>Введите фамилии через пробел</h1>
+            <textarea name="surnames" id="surnames" cols="60" rows="8"></textarea>
+            <input type="button" id="submitBtn" value="Отправить">
+        </form>
+        <div style="text-align: center">
+            <input type="button" id="default" value="Исходный список">
+            <input type="button" id="format" value="Измененный список">
+        </div>
+        <div class="lists">
+            <div class="output--list">
+                <ol id="defaultOl"></ol>
+            </div>
+            <div class="output--list">
+                <ol id="formatOl"></ol>
+            </div>
+        </div>
+    </article>
+</div>
+<script src="../js/jquery-3.5.1.min.js"></script>
+<script src="../js/index.js"></script>
+</body>
+
+</html>

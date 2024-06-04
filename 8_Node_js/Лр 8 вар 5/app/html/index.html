@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="../js/script.js"></script>
+</head>
+<body>
+<div class="generalDiv">
+    <form action="/form" method="post">
+        Имя: <input type="text" name="name"><br/>
+        Фамилия: <input type="text" name="surname"><br/>
+        Адрес: <input type="text" name="address"><br/>
+        Дата рождения: <input type="date" name="date"><br/>
+        Почта: <input type="email" name="email"><br/>
+
+        Страна проживания: <select name="country">
+        <option>Беларусь</option>
+        <option>Россия</option>
+        <option>США</option>
+    </select><br/>
+            <span style="margin-right: 5px">Пол:</span>
+            <label>
+                Мужской<input type="radio" name="sex" value="Мужской">
+            </label>
+            <label>
+                Женский<input type="radio" name="sex" value="Женский"> <br>
+            </label>
+        <span>Домашнее животное:</span>
+        <label>
+            Кот<input type="checkbox" name="animal" value="Кот">
+        </label>
+        <label>
+            Собака<input type="checkbox" name="animal" value="Собака"><br>
+        </label>
+        <button type="submit">Отправить</button>
+    </form>
+    <button id="res">Показать результат</button>
+    <pre id="data"></pre>
+</div>
+</body>
+</html>

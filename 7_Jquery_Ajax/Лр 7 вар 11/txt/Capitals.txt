@@ -1,0 +1,6 @@
+<span id='Minsk'>Минск</span>
+<span id='Moscow'>Москва</span>
+<span id='London'>Лондон</span>
+<span id='Paris'>Париж</span>
+
+<span id='Capital'> — это столица</span>

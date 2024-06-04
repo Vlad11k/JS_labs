@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Employees</title>
+        <script src="/static/script.js"></script>
+        <link rel="stylesheet" href="/static/style.css">
+    </head>
+    <body>
+    <h1>Урок {{class.name}}</h1>
+    <main>
+        <form action="/update" method="post">
+            <table>
+                <tr>
+                    <td><label for="name">Название:</label></td>
+                    <td>
+                        <input type="hidden" name="_id" value="{{class._id}}">
+                        <input id="name" name="name" value="{{class.name}}">
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="time">Время проведения:</label></td>
+                    <td>
+                        <input type="time" id="time" name="time" value="{{class.time}}">
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="tutor">Преподаватель:</label></td>
+                    <td>
+                        <input id="tutor" name="tutor" value="{{class.tutor}}">
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="room">Аудитория:</label></td>
+                    <td>
+                        <input id="room" name="room" value="{{class.room}}">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <button>Обновить</button>
+                        <button form="removeForm">Удалить</button>
+                    </td>
+                </tr>
+            </table>
+        </form>
+        <form id="removeForm" action="/remove" method="post">
+            <input type="hidden" name="_id" value="{{class._id}}">
+        </form>
+    </main>
+    </body>
+</html>

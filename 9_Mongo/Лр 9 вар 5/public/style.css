@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, Verdana, sans-serif;
+}
+
+h1 {
+    color: #0374e5;
+}
+
+#employees td, th {
+    padding: 5px;
+}
+
+#employees tr:nth-child(even) {
+    background-color: #dadada;
+}
+
+table {
+    margin: 0 auto 10px;
+}
+
+h1 {
+    text-align: center;
+}
+
+#addBtn {
+    display: block;
+    text-align: center;
+    margin: 5px auto 0;
+}
+
+#swapBtn {
+    display: block;
+    text-align: center;
+    margin: 5px auto 0;
+}
+
+button {
+    font-weight: 600;
+    font-size: 15px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+button:hover {
+    background-color: #b0b0b0;
+}
+
+input {
+    margin: 10px;
+    padding: 2px;
+    width: 150px;
+}
+
+.err {
+    color: #a80202;
+    text-align: center;
+}
+
+#task {
+    text-align: center;
+    margin-top: 20px;
+    width: 20%;
+    margin: auto;
+}

@@ -1,0 +1,161 @@
+/* General */
+body {
+    color: #333;
+    font-size: 16px;
+
+    margin: 0;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+}
+
+/* Container */
+.container {
+    width: 100%;
+    max-width: 1200px;
+
+    margin: 0 auto;
+}
+
+/* Interview */
+.interview {
+    width: 100%;
+
+    background-image: linear-gradient(to bottom, rgba(0, 100, 0, 0.7), #f5f5dc);
+
+    padding: 50px 0;
+}
+
+/* Interview Form */
+.interview-form {
+    width: 100%;
+
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 15px;
+
+    padding: 20px 50px;
+}
+
+.interview-form__header {
+    display: flex;
+    justify-content: center;
+}
+
+.interview-form__header-title {
+    font-size: 48px;
+
+    margin-bottom: 15px;
+}
+
+.interview-fields {
+    display: flex;
+    flex-wrap: wrap;
+
+    padding-bottom: 25px;
+}
+
+.interview-fields__item {
+    flex-grow: 1;
+
+    width: 350px;
+    height: 40px;
+
+    font-size: 16px;
+
+    padding: 5px;
+    margin: 15px 25px;
+}
+
+.interview-buttons {
+    display: flex;
+    justify-content: center;
+
+    padding-bottom: 5px;
+}
+
+.interview-buttons__item {
+    width: 150px;
+    height: 40px;
+
+    font-size: 16px;
+
+    margin: 5px;
+}
+
+.interview-operations {
+    padding: 0 75px;
+}
+
+.interview-operations__item {
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+
+    padding: 10px 0;
+}
+
+.interview-operations__field {
+    width: 350px;
+    height: 40px;
+
+    font-size: 16px;
+    text-align: center;
+
+    margin: 5px;
+}
+
+.interview-operations__button {
+    width: 150px;
+    height: 40px;
+
+    font-size: 16px;
+
+    margin: 5px;
+}
+
+/* Results */
+.results {
+    background: #f5f5dc;
+    padding: 50px 0;
+}
+
+.results-header {
+    display: flex;
+    justify-content: center;
+}
+
+.results-header__title {
+    font-size: 48px;
+
+    margin-bottom: 15px;
+}
+
+.results-table {
+    width: 100%;
+
+    border-collapse: collapse;
+}
+
+.results-table td {
+    height: 35px;
+
+    border: #333 solid 1px;
+
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.results-table thead td {
+    font-weight: 700;
+
+    text-align: center;
+    text-transform: uppercase;
+}

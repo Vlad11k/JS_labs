@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Лр 5</title>
+</head>
+<body>
+<div class="interview">
+    <div class="container">
+        <form class="interview-form" name="interviewForm">
+            <div class="interview-form__header">
+                <h3 class="interview-form__header-title">Информация о классе</h3>
+            </div>
+            <div class="interview-fields">
+                <input class="interview-fields__item" type="number" name="number" placeholder="№ Класса">
+                <input class="interview-fields__item" type="number" name="amount" placeholder="Количество учащихся">
+                <input class="interview-fields__item" type="tel" name="phone" placeholder="Телефон">
+                <input class="interview-fields__item" type="text" name="teachName" placeholder="ФИО классного">
+            </div>
+            <div class="interview-buttons">
+                <button class="interview-buttons__item" id="submit">Добавить запись</button>
+                <button class="interview-buttons__item" type="reset">Сбросить</button>
+                <button class="interview-operations__button" id="maxMinBtn">MAX и MIN</button>
+            </div>
+            <div class="interview-operations">
+                <div class="interview-operations__item" id="idSelectorItem">
+
+                    <button class="interview-operations__button" id="removeId">Удалить по id</button>
+                </div>
+                <div class="interview-operations__item">
+                    <input type="text" class="interview-operations__field" id="addColumn" name="addColumn"
+                           placeholder="Дополнительно...">
+                    <button class="interview-operations__button" id="addButton">Добавить столбец</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+
+<section class="results">
+    <div class="container">
+        <div class="results-header">
+            <h3 class="results-header__title">Результаты</h3>
+        </div>
+
+    </div>
+</section>
+
+<script src="../js/variables.js"></script>
+<script src="../js/logic.js"></script>
+<script src="../js/table.js"></script>
+<script src="../js/start.js"></script>
+</body>
+</html>

@@ -1,0 +1,45 @@
+.modal-overlay {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+
+    background-color: rgba(51, 51, 51, 0.7);
+}
+
+.modal {
+    width: 800px;
+
+    background-color: #fff;
+    border-radius: 5px;
+
+    padding: 10px;
+
+    margin: 100px auto 0;
+}
+
+.modal-header {
+    border-bottom: solid 1px;
+
+    padding-bottom: 5px;
+}
+
+.modal-header__title {
+    font-size: 24px;
+    font-weight: 700;
+
+    text-align: center;
+}
+
+.modal-body {
+    padding: 5px;
+}
+
+.modal-footer {
+    display: flex;
+    justify-content: center;
+
+    border-top: 1px solid;
+    padding-top: 5px;
+}

@@ -1,0 +1,72 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+ol {
+    padding: 30px;
+}
+
+html,
+body {
+    height: 90%;
+    width: 100%;
+}
+
+body {
+    background: url("../resource/bg.jpg");
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    margin: 50px auto auto auto;
+    width: 600px;
+    background: rgba(166, 166, 166, 0.6);
+    border-radius: 20px;
+    color: white;
+}
+
+.article {
+    flex: 1 1 auto;
+    padding: 10px;
+}
+
+.lists {
+    width: 400px;
+    margin: auto;
+    display: flex;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+textarea {
+    box-sizing: border-box;
+    resize: vertical;
+    padding: 10px;
+    font-size: 14px;
+    margin: 20px auto;
+}
+
+.btn-hub {
+    display: flex;
+    justify-content: space-between;
+}
+
+.output--list {
+    padding-left: 40px;
+    width: 400px;
+}
+
+button, input[type=button] {
+    margin: 10px 20px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
