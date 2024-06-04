@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Employees</title>
+        <link rel="stylesheet" href="/static/style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+        <script src="/static/script.js"></script>
+    </head>
+    <body>
+    <h1>Список классов</h1>
+    <main>
+        {{#if classes.length}}
+            <table id="employees">
+                <tr>
+                    <th>Название</th>
+                    <th>Время проведения</th>
+                    <th>Преподаватель</th>
+                    <th>Аудитория</th>
+                </tr>
+                {{#each classes}}
+                    <tr>
+                        <td>
+                            <a href="/class/{{this._id}}">{{this.name}}</a>
+                        </td>
+                        <td>{{this.time}}</td>
+                        <td>{{this.tutor}}</td>
+                        <td>{{this.room}}</td>
+                    </tr>
+                {{/each}}
+                </table>
+        {{else}}
+            <p class="err">Не найдено аудиторий</p>
+        {{/if}}
+
+    </main>
+
+    <div id="task">
+        <button id="addBtn" type="button">Добавить занятие</button>
+        <button id="swapBtn" type="button">Переместить занятия</button>
+        <label for="managerName">Аудитория:</label><input type="text" id="managerName">
+        <button id="show">Показать занятия</button>
+        <ol id="list"></ol>
+    </div>
+    </body>
+</html>
